@@ -44,7 +44,7 @@ chart.load([
     { id: 14, pids: [12], name: "Shobha Roy", title: "", img: "", gender: 'female' }, //GrandMa
 
     { id: 16, fid: 12, mid: 14, pids: [20], name: "Tapankumar Roy", img: "images/papa.jpg", gender: 'male' }, //Papa
-    { id: 17, fid: 12, mid: 14, name: "Mouni Roy", img: "", gender: 'female' },
+    { id: 17, fid: 12, mid: 14, name: "Jayashree Roy", img: "", gender: 'female' },
     { id: 18, fid: 12, mid: 14, pids: [25], name: "Swapan Roy", img: "", gender: 'male' }, // Swapan Roy
     { id: 19, fid: 12, mid: 14, pids: [26], name: "Jivan Roy", img: "", gender: 'male' }, // Jivan Roy
 
