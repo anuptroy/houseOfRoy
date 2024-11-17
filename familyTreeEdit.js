@@ -30,7 +30,19 @@ var chart = new FamilyTree(document.getElementById("tree"), {
 
 
 chart.load([
-    { id: 1, pids: [2], name: "Kelsha SinghaRoy", img: "", gender: 'male' },
+
+    // Adding Fulchand Roy
+    { id: 31, name: "Vetka Roy", title: "", img: "", gender: 'male' }, // Father of Fulchand Roy
+
+    // Updating Fulchand Roy to include his father and wife
+    { id: 30, fid: 31, pids: [32], name: "Fulchand Roy", title: "", img: "", gender: 'male' },
+
+    // Adding Mrs. Fulchandani Roy as Fulchand's wife
+    { id: 32, pids: [30], name: "Mrs. SinghaRoy", title: "", img: "", gender: 'female' },
+
+    // Updating Kelsha SinghaRoy to keep the connection to his father
+    { id: 1, fid: 30, pids: [2], name: "Kelsha SinghaRoy", img: "", gender: 'male' },
+
     { id: 2, pids: [1], name: "Mrs SinghaRoy", title: "", img: "", gender: 'female' }, //
 
     { id: 3, pids: [4], mid: 2, fid: 1, name: "Mrs SinghaRoy", img: "", gender: 'female' },
