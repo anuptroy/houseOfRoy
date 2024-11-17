@@ -47,6 +47,7 @@ chart.load([
     { id: 17, fid: 12, mid: 14, name: "Jayashree Roy", img: "", gender: 'female' },
     { id: 18, fid: 12, mid: 14, pids: [25], name: "Swapan Roy", img: "", gender: 'male' }, // Swapan Roy
     { id: 19, fid: 12, mid: 14, pids: [26], name: "Jivan Roy", img: "", gender: 'male' }, // Jivan Roy
+    { id: 29, fid: 12, mid: 14, name: "Chanchal Roy", title: "Died: 2003", img: "", gender: 'male' }, // Brother of Tapankumar Roy
 
     { id: 20, pids: [16], name: "Aparna Roy", title: "", img: "images/mom.jpg", gender: 'female' }, // Wife of Tapankumar Roy
 
